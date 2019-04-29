@@ -1,0 +1,4628 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/patrickschramm/DEV/testmate/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/patrickschramm/DEV/testmate/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6a4b5cd93c1db824950913a8c2bbcd5",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "87de36d9d52b6ae7a0c17bb3d81232af",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "673911fec37de392798e622afc83aa1d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a867ae5df81bfa4f4b414b3c35d2de49",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "077b8a6391433296476624e70549a8b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1d1f6f4ccfc3f86904c0311816733f98",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2634aa8a28a7dcbaa6be7be2bff24f34",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "30149c82db9863996876e4e3d256a41e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6feb0fcb-091b-5f0d-bdf4-7a5482e486b0": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-manifest",
+      "id": "6feb0fcb-091b-5f0d-bdf4-7a5482e486b0",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Mate Gatsby Starter",
+        "short_name": "Mate Gatsby Starter",
+        "start_url": "/",
+        "background_color": "#FFFFFF",
+        "theme_color": "#7c37ad",
+        "display": "minimal-ui",
+        "icon": "media/icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8f1d00f4d37b68ad82b173151229cadf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">=2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7020263ffe14feff01b1c0a1bfafbf7b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0d07cf63-552d-5223-a92f-b98cbc3d98d0": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-google-fonts",
+      "id": "0d07cf63-552d-5223-a92f-b98cbc3d98d0",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "cabin",
+          "Open Sans"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gastby-plugin",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": "Didier Franc <dev@didierfranc.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fa36be143990a16188175e476d1d095c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7b57f50b-e83c-5ffb-abdd-0c6bea7daeb7": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-source-contentful",
+      "id": "7b57f50b-e83c-5ffb-abdd-0c6bea7daeb7",
+      "name": "gatsby-source-contentful",
+      "version": "2.0.29",
+      "pluginOptions": {
+        "plugins": [],
+        "spaceId": "75059rxhe4kx",
+        "accessToken": "ba948daac0702d70c92676a66d3d00768a13cf11cbc491ef03e9605a47ce24a3",
+        "host": "cdn.contentful.com",
+        "environment": "master"
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "2.0.29",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": "Marcus Ericsson <mericsson@gmail.com> (mericsson.com)",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "is-online",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "de579495a78cba3234310894b32c572e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.4",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "58b357ed9c9a776bb8eedfbb0b3caba4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.23",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b1f988b055d44c283e332a83e74b4988",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "55ca855b-961c-5b4c-a4cf-b1fafdc22200": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-source-medium",
+      "id": "55ca855b-961c-5b4c-a4cf-b1fafdc22200",
+      "name": "gatsby-source-medium",
+      "version": "2.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "username": "@emasuriano"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-source-medium",
+      "packageJson": {
+        "name": "gatsby-source-medium",
+        "description": "Gatsby source plugin for building websites using Medium as a data source",
+        "version": "2.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Robert Vogt <robert@smartive.ch>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "axios",
+            "version": "^0.18.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "15523f945a9045cbf5af8fcb3329d2a0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/patrickschramm/DEV/testmate",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "387ef3fd5d3f01cb7fe2c43f0866b49e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate",
+      "packageJson": {
+        "name": "gatsby-starter-mate",
+        "description": "Gatsby v2 starter to create a top notch portfolio!",
+        "version": "2.2.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "starter",
+          "contentful",
+          "PWA",
+          "portfolio"
+        ],
+        "author": "Ema Suriano",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "clean-dir",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "contentful",
+            "version": "^7.0.3"
+          },
+          {
+            "name": "dotenv",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "envfile",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.117"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "^0.0.4"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.5"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-source-medium",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.4"
+          },
+          {
+            "name": "inquirer",
+            "version": "^6.2.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.6.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.7.0"
+          },
+          {
+            "name": "react-fontawesome",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "react-headroom",
+            "version": "^2.2.4"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-markdown",
+            "version": "^4.0.3"
+          },
+          {
+            "name": "react-reveal",
+            "version": "^1.2.2"
+          },
+          {
+            "name": "react-scroll-section",
+            "version": "^1.3.0"
+          },
+          {
+            "name": "react-text-loop",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "react-tippy",
+            "version": "^1.2.2"
+          },
+          {
+            "name": "rebass",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "chalk",
+            "version": "^2.4.1"
+          },
+          {
+            "name": "contentful-import",
+            "version": "^7.4.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.6.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^4.1.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.12.3"
+          },
+          {
+            "name": "husky",
+            "version": "^1.3.1"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^8.1.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "18a5f8f8f53009e62a2f0a5f849adf5e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "ff22c392-d1af-5f58-a78b-e7a07e3d6859": {
+      "resolve": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-page-creator",
+      "id": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/patrickschramm/DEV/testmate/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/patrickschramm/DEV/testmate/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "993f6f7d88197c9b3fae98b04852fb55",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-29T17:12:00.073Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cdde6969e583ecdfdf90ec0b43a0ea1f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "eeabb520-50dd-53e4-bdcf-6f8212552bd3": {
+      "id": "eeabb520-50dd-53e4-bdcf-6f8212552bd3",
+      "parent": null,
+      "children": [],
+      "name": "Project",
+      "displayField": "name",
+      "description": "Project description",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "1bfc69907b32ca83a0b61fa5ee60e393",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "d5b809dc-bb7b-555d-a135-ce7436b9b1b8": {
+      "name": "Google",
+      "publishedDate": "1998-06-19T00:00+02:00",
+      "repositoryUrl": "https://github.com/google",
+      "description": "It is the most-used search engine on the World Wide Web, handling more than three billion searches each day.",
+      "projectUrl": "https://www.google.com/",
+      "type": "Web",
+      "logo___NODE": "4f00ef0b-a1e4-5cd2-9d59-bd5c94934a54",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "d5b809dc-bb7b-555d-a135-ce7436b9b1b8",
+      "contentful_id": "5paxSRHbAkmgMc4WSW8S66",
+      "createdAt": "2019-04-28T20:36:55.568Z",
+      "updatedAt": "2019-04-29T17:11:40.464Z",
+      "parent": "Project",
+      "children": [],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "b11b43534d8b32f24cf813387b5980e0",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "7aa9b16d-f43f-5199-839a-89f24f1b7cdc": {
+      "name": "Gatsby JS",
+      "publishedDate": "2016-09-01T00:00+02:00",
+      "repositoryUrl": "https://github.com/gatsbyjs/gatsby",
+      "description": " Gatsby is a React-based, GraphQL powered, static site generator. Overall think, part Jekyll, part create-react-app.",
+      "projectUrl": "https://www.gatsbyjs.org/",
+      "type": "Framework",
+      "logo___NODE": "f6f2250c-9af0-539e-8b06-2cf3211d7d63",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "7aa9b16d-f43f-5199-839a-89f24f1b7cdc",
+      "contentful_id": "2GKNR2f4z6IwAg6a2MmKCc",
+      "createdAt": "2019-04-28T20:36:55.052Z",
+      "updatedAt": "2019-04-29T17:11:40.082Z",
+      "parent": "Project",
+      "children": [],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "902423ca68cd53020e41b25a89443237",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "172cb726-050d-52f3-9e23-aa529fe48229": {
+      "name": "Facebook",
+      "publishedDate": "2004-09-01T00:00+02:00",
+      "repositoryUrl": "https://github.com/facebook",
+      "description": "Facebook is a popular free social networking website that allows registered users to keep in touch with friends.",
+      "projectUrl": "http://facebook.com/",
+      "type": "Web",
+      "logo___NODE": "6357e804-4fd2-5bfe-ba2b-1a72e86f1248",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "172cb726-050d-52f3-9e23-aa529fe48229",
+      "contentful_id": "6Y7EIx73nUCWuoIWcsuM00",
+      "createdAt": "2019-04-28T20:36:54.509Z",
+      "updatedAt": "2019-04-29T17:11:39.681Z",
+      "parent": "Project",
+      "children": [],
+      "internal": {
+        "type": "ContentfulProject",
+        "contentDigest": "8f04116fc3a96b203cf747a94613c7fa",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "5e987793-c0e4-593c-8c72-050118c334dc": {
+      "id": "5e987793-c0e4-593c-8c72-050118c334dc",
+      "parent": null,
+      "children": [],
+      "name": "Social Link",
+      "displayField": "name",
+      "description": "Social Link to display with a font awesome icon.",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "ee9b948838a92bc8d8651e05a35794ec",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "4cd92736-3aec-5c27-bb2b-841c700cf73d": {
+      "name": "Medium",
+      "url": "https://medium.com/@emasuriano",
+      "fontAwesomeIcon": "medium",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "4cd92736-3aec-5c27-bb2b-841c700cf73d",
+      "contentful_id": "3DpgtG8qI8QCWyEAuME4Ku",
+      "createdAt": "2019-04-28T20:36:53.994Z",
+      "updatedAt": "2019-04-29T17:11:39.322Z",
+      "parent": "Social Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulSocialLink",
+        "contentDigest": "4a813dc9cdea67a43e4bff8eb0458adf",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "97e89d27-0dd0-539a-b1e8-f57942b275a8": {
+      "name": "Contact me",
+      "url": "https://emanuelsuriano.typeform.com/to/OeETl6",
+      "fontAwesomeIcon": "envelope",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "97e89d27-0dd0-539a-b1e8-f57942b275a8",
+      "contentful_id": "114ApRkJZq640w8G2GwM8w",
+      "createdAt": "2019-04-28T20:36:53.439Z",
+      "updatedAt": "2019-04-29T17:11:38.805Z",
+      "parent": "Social Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulSocialLink",
+        "contentDigest": "124dd151108fa1659ad30579f90b2083",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "71f92cfd-c26a-581d-8a09-d1423df892a2": {
+      "name": "Twitter",
+      "url": "https://twitter.com/emasuriano",
+      "fontAwesomeIcon": "twitter",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "71f92cfd-c26a-581d-8a09-d1423df892a2",
+      "contentful_id": "4J6WFTjoMUCmQKuKAaOsqE",
+      "createdAt": "2019-04-28T20:36:52.933Z",
+      "updatedAt": "2019-04-29T17:11:38.110Z",
+      "parent": "Social Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulSocialLink",
+        "contentDigest": "28ceff3b57f45938eda28f8f3ecdb38e",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "e20c9b85-0866-5997-8ba4-c24d18e0e054": {
+      "name": "Github",
+      "url": "https://github.com/EmaSuriano/gatsby-starter-mate/blob/master/README.md",
+      "fontAwesomeIcon": "github",
+      "about___NODE": [
+        "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90"
+      ],
+      "id": "e20c9b85-0866-5997-8ba4-c24d18e0e054",
+      "contentful_id": "4SrlLN9bt6Yew2UyGgM06a",
+      "createdAt": "2019-04-28T20:36:51.287Z",
+      "updatedAt": "2019-04-29T17:11:37.125Z",
+      "parent": "Social Link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulSocialLink",
+        "contentDigest": "9cadd02bec492898647ce5ff0c82d929",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "8a439964-27c5-578a-a541-f99c346f879e": {
+      "id": "8a439964-27c5-578a-a541-f99c346f879e",
+      "parent": null,
+      "children": [],
+      "name": "About",
+      "displayField": "name",
+      "description": "All information related to personal data.",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "77d5f10aebfc5de468d6d9919b6525df",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90": {
+      "name": "Mate",
+      "description": "Gatsby v2 starter to create a top notch portfolio!",
+      "roles": [
+        "Quick setup 🚀",
+        "Responsive 📱",
+        "PWA ✨",
+        "Contentful CMS 🔧"
+      ],
+      "mediumUser": "@emasuriano",
+      "socialLinks___NODE": [
+        "e20c9b85-0866-5997-8ba4-c24d18e0e054",
+        "4cd92736-3aec-5c27-bb2b-841c700cf73d",
+        "97e89d27-0dd0-539a-b1e8-f57942b275a8",
+        "71f92cfd-c26a-581d-8a09-d1423df892a2"
+      ],
+      "profile___NODE": "bbfa0c94-13ba-5568-bb73-fd05af760408",
+      "projects___NODE": [
+        "172cb726-050d-52f3-9e23-aa529fe48229",
+        "7aa9b16d-f43f-5199-839a-89f24f1b7cdc",
+        "d5b809dc-bb7b-555d-a135-ce7436b9b1b8"
+      ],
+      "aboutMe___NODE": "435f85e3-119e-562a-887d-e3cdde0d526d",
+      "id": "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90",
+      "contentful_id": "5lzMxuCX84uYqmgGmU8iKU",
+      "createdAt": "2019-04-28T20:36:52.238Z",
+      "updatedAt": "2019-04-29T17:11:37.578Z",
+      "parent": "About",
+      "children": [
+        "435f85e3-119e-562a-887d-e3cdde0d526d"
+      ],
+      "internal": {
+        "type": "ContentfulAbout",
+        "contentDigest": "28255a6d7c22a6b71bd5fa9dfefda4ea",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "435f85e3-119e-562a-887d-e3cdde0d526d": {
+      "id": "435f85e3-119e-562a-887d-e3cdde0d526d",
+      "parent": "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90",
+      "children": [
+        "1d254671-bb43-5e69-93cf-8445e49aea91"
+      ],
+      "aboutMe": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium.",
+      "internal": {
+        "type": "contentfulAboutAboutMeTextNode",
+        "mediaType": "text/markdown",
+        "content": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium.",
+        "contentDigest": "5f4f679dae361e6b77062b61f4b54307",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "f6f2250c-9af0-539e-8b06-2cf3211d7d63": {
+      "contentful_id": "6rkOXCpyvuekYIgy6U6gGu",
+      "id": "f6f2250c-9af0-539e-8b06-2cf3211d7d63",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/75059rxhe4kx/6rkOXCpyvuekYIgy6U6gGu/14ae56872fc70c2d44998aacbf943c6d/1_t5EnAu3eSWJA0rmZ9v3xuw.png",
+        "details": {
+          "size": 111702,
+          "image": {
+            "width": 1600,
+            "height": 1600
+          }
+        },
+        "fileName": "1*t5EnAu3eSWJA0rmZ9v3xuw.png",
+        "contentType": "image/png"
+      },
+      "title": "Gatsby logo",
+      "description": "Gatsby logo",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "ec27d4f8a2c4f3fcb8b4e5cb9fc11588",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "6357e804-4fd2-5bfe-ba2b-1a72e86f1248": {
+      "contentful_id": "u3Um4zkMrAaQioyq4oSIW",
+      "id": "6357e804-4fd2-5bfe-ba2b-1a72e86f1248",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/75059rxhe4kx/u3Um4zkMrAaQioyq4oSIW/d216b99e5d04dded84af43c1bec48d7b/600px-Facebook_logo__28square_29.png",
+        "details": {
+          "size": 13209,
+          "image": {
+            "width": 600,
+            "height": 600
+          }
+        },
+        "fileName": "600px-Facebook_logo_%28square%29.png",
+        "contentType": "image/png"
+      },
+      "title": "Facebook logo",
+      "description": "Facebook logo",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "bd60d58350a3cd932e97689175072c44",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "bbfa0c94-13ba-5568-bb73-fd05af760408": {
+      "contentful_id": "6nf3rNaaVaUqYcoAcciSeC",
+      "id": "bbfa0c94-13ba-5568-bb73-fd05af760408",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/75059rxhe4kx/6nf3rNaaVaUqYcoAcciSeC/f80a3215b608f1f4c114e4e72c972deb/Mate_Logo.png",
+        "details": {
+          "size": 52527,
+          "image": {
+            "width": 946,
+            "height": 948
+          }
+        },
+        "fileName": "Mate Logo.png",
+        "contentType": "image/png"
+      },
+      "title": "Mate Logo",
+      "description": "Mate Logo",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "2e51806bba549a74d01be1eef61d9fc1",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "4f00ef0b-a1e4-5cd2-9d59-bd5c94934a54": {
+      "contentful_id": "3AorRmtWOsGQ4o8gK0YWKG",
+      "id": "4f00ef0b-a1e4-5cd2-9d59-bd5c94934a54",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/75059rxhe4kx/3AorRmtWOsGQ4o8gK0YWKG/e4629896c6fbb91572fdcdb5d0b48f24/google_PNG19630.png",
+        "details": {
+          "size": 39228,
+          "image": {
+            "width": 1000,
+            "height": 1000
+          }
+        },
+        "fileName": "google_PNG19630.png",
+        "contentType": "image/png"
+      },
+      "title": "Google Logo",
+      "description": "Logo from Google",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "3f39a03516a99f899ed0bc3e332d39cb",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "1d254671-bb43-5e69-93cf-8445e49aea91": {
+      "id": "1d254671-bb43-5e69-93cf-8445e49aea91",
+      "children": [],
+      "parent": "435f85e3-119e-562a-887d-e3cdde0d526d",
+      "internal": {
+        "content": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium.",
+        "type": "MarkdownRemark",
+        "contentDigest": "43c530930a9600945b782c92659eaa89",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writting:](#writting) Take the information about your medium user and show up to 6 stories as cards with the link to Medium."
+    },
+    "1be025e0-c0cd-5550-81d4-43085241a733": {
+      "userId": "cc2fb20f639d",
+      "name": "Emanuel Suriano",
+      "username": "emasuriano",
+      "createdAt": "2017-02-12",
+      "imageId": "1*4aeCjB1HLFF_OHIfmBZekA.jpeg",
+      "backgroundImageId": "",
+      "bio": "Hi 👋 Normally I build stuff with JavaScript 💻 Sometimes I give talks 💬 Once a month I write an article ✍️",
+      "twitterScreenName": "emasuriano",
+      "facebookAccountId": "",
+      "allowNotes": 1,
+      "mediumMemberAt": 0,
+      "isNsfw": false,
+      "isWriterProgramEnrolled": true,
+      "isQuarantined": false,
+      "type": "User",
+      "id": "1be025e0-c0cd-5550-81d4-43085241a733",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumUser",
+        "contentDigest": "6eb92ec54c564ea52f6a100081e4639a",
+        "owner": "gatsby-source-medium"
+      },
+      "posts___NODE": [
+        "f379a78f-c847-5615-a9eb-21a125c3fbbf",
+        "5c8fae5d-a47f-5081-863c-f80c45481793",
+        "9b616c1c-a1c5-5ef4-997a-bb3805a6534f",
+        "4c77feb1-5981-5842-bb8d-fe107cf7f87a",
+        "94347b2d-659a-5643-86b1-39c54c40ad0c",
+        "a3c6639c-d5cc-5807-a241-2478c8a311d4",
+        "8c1ba0bc-3515-5699-8372-dfcfe4437a37",
+        "44fd0bc0-828a-5f19-94b2-3828beee89b9"
+      ]
+    },
+    "f379a78f-c847-5615-a9eb-21a125c3fbbf": {
+      "id": "f379a78f-c847-5615-a9eb-21a125c3fbbf",
+      "versionId": "218cda822960",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "",
+      "title": "Using Storybook as a powerful Visual Testing Platform",
+      "detectedLanguage": "en",
+      "latestVersion": "218cda822960",
+      "latestPublishedVersion": "218cda822960",
+      "hasUnpublishedEdits": false,
+      "latestRev": 2838,
+      "createdAt": "2019-04-05",
+      "updatedAt": "2019-04-29",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2019-04-28",
+      "latestPublishedAt": "2019-04-29",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "My experience with Visual Testing with Storybook and how you can also implement in your projects.",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*b9e2qGuyYibljzqyUhIvBA.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 3840,
+          "originalHeight": 2702,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1792,
+        "imageCount": 12,
+        "readingTime": 8.112264150943396,
+        "subtitle": "My experience with Visual Testing with Storybook and how you can also implement in your projects.",
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 3,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "javascript",
+            "name": "JavaScript",
+            "postCount": 93572,
+            "metadata": {
+              "postCount": 93572,
+              "coverImage": {
+                "id": "1*05ZhqragwnsDBx-9wK0EJw.jpeg",
+                "originalWidth": 2048,
+                "originalHeight": 977,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "storybook",
+            "name": "Storybook",
+            "postCount": 206,
+            "metadata": {
+              "postCount": 206,
+              "coverImage": {
+                "id": "1*eItK7bEZQnDQix1FjaPnSg.png",
+                "originalWidth": 1594,
+                "originalHeight": 978,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "testing",
+            "name": "Testing",
+            "postCount": 12213,
+            "metadata": {
+              "postCount": 12213,
+              "coverImage": {
+                "id": "1*T8RKJCWkT9axYxsLeh_lqg.png",
+                "originalWidth": 600,
+                "originalHeight": 260,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "react",
+            "name": "React",
+            "postCount": 25937,
+            "metadata": {
+              "postCount": 25937,
+              "coverImage": {
+                "id": "1*j-b1dZsAJGfhUEQVHu2Wpw.jpeg",
+                "originalWidth": 5991,
+                "originalHeight": 3024,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 1,
+        "links": {
+          "entries": [
+            {
+              "url": "http://localhost:9009",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "http://localhost:9009/iframe.html?id=duplicationbutton--good'",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "http://localhost:9009/'",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "https://unsplash.com/photos/hqCEQTc5gZA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/search/photos/magnifying-glass?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://facebook.github.io/create-react-app/docs/running-tests#src-setuptestsjs",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://applitools.com/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://storybook.js.org/docs/testing/structural-testing/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://storybook.js.org/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://percy.io",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://storybook.js.org/docs/testing/automated-visual-testing/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "http://twitter.com/storybook/addon-storyshots",
+              "alts": [],
+              "httpStatus": 404
+            },
+            {
+              "url": "https://jestjs.io/docs/en/snapshot-testing",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://jestjs.io/docs/en/puppeteer",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "http://twitter.com/storybook/addon-storyshots-puppetee",
+              "alts": [],
+              "httpStatus": 404
+            },
+            {
+              "url": "http://twitter.com/storybook/react",
+              "alts": [],
+              "httpStatus": 404
+            },
+            {
+              "url": "https://www.styled-components.com/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/weather-styled-icon",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/visual-testing-storybook",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/GoogleChrome/puppeteer",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/bahmutov/start-server-and-test",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.npmjs.com/package/@storybook/addon-storyshots-puppeteer",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/americanexpress/jest-image-snapshot",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.npmjs.com/package/@storybook/addon-storyshots",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/facebook/create-react-app",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2019-04-29"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 10,
+        "sectionCount": 1,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "using-storybook-as-a-powerful-visual-testing-platform",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": false,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "using-storybook-as-a-powerful-visual-testing-platform-3b71db953b4b",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "previewImage",
+              "type": 4,
+              "text": "",
+              "layout": 10,
+              "metadata": {
+                "id": "1*b9e2qGuyYibljzqyUhIvBA.jpeg",
+                "originalWidth": 3840,
+                "originalHeight": 2702,
+                "isFeatured": true
+              }
+            },
+            {
+              "name": "previewTitle",
+              "type": 3,
+              "text": "Using Storybook as a powerful Visual Testing Platform",
+              "alignment": 1
+            },
+            {
+              "name": "previewSubtitle",
+              "type": 13,
+              "text": "My experience with Visual Testing with Storybook…",
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "My experience with Visual Testing with Storybook and how you can also implement in your projects."
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 0,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "3b71db953b4b",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "1832f3062f9909789a867a31c200cb1d",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "5c8fae5d-a47f-5081-863c-f80c45481793": {
+      "id": "5c8fae5d-a47f-5081-863c-f80c45481793",
+      "versionId": "6f2e3553f8b6",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "5517fd7b58a6",
+      "title": "Make any Static Site Dynamic with Zapier",
+      "detectedLanguage": "en",
+      "latestVersion": "6f2e3553f8b6",
+      "latestPublishedVersion": "6f2e3553f8b6",
+      "hasUnpublishedEdits": false,
+      "latestRev": 1221,
+      "createdAt": "2019-01-23",
+      "updatedAt": "2019-03-19",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2019-03-19",
+      "latestPublishedAt": "2019-03-19",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "Without any doubts, there was a huge adoption for Static Site Generator since these past 2 years, and one of the main reason was the huge…",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "statusForCollection": "APPROVED",
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*Euagv75V1mQxIkBz5RJYzA.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 5183,
+          "originalHeight": 2529,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1054,
+        "imageCount": 9,
+        "readingTime": 5.1773584905660375,
+        "subtitle": "Without any doubts, there was a huge adoption for Static Site Generator since these past 2 years, and one of the main reason was the huge…",
+        "publishedInCount": 1,
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 9,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "web-development",
+            "name": "Web Development",
+            "postCount": 93327,
+            "metadata": {
+              "postCount": 93327,
+              "coverImage": {
+                "id": "1*Z26vagBVJFHdQ-0QS43SMw.jpeg",
+                "originalWidth": 5760,
+                "originalHeight": 3840,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "gatsby",
+            "name": "Gatsby",
+            "postCount": 62,
+            "metadata": {
+              "postCount": 62,
+              "coverImage": {
+                "id": "1*Euagv75V1mQxIkBz5RJYzA.jpeg",
+                "originalWidth": 5183,
+                "originalHeight": 2529,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "zapier",
+            "name": "Zapier",
+            "postCount": 405,
+            "metadata": {
+              "postCount": 405,
+              "coverImage": {
+                "id": "0*L1mg2UEiFx5LU4wj.png",
+                "originalWidth": 1200,
+                "originalHeight": 500
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "static-site",
+            "name": "Static Site",
+            "postCount": 314,
+            "metadata": {
+              "postCount": 314,
+              "coverImage": {
+                "id": "1*wYAr1rwXUM6P8InyXIPUyw.png",
+                "originalWidth": 974,
+                "originalHeight": 352
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "deployment",
+            "name": "Deployment",
+            "postCount": 1837,
+            "metadata": {
+              "postCount": 1837,
+              "coverImage": {
+                "id": "1*R6x9WsXQZmDB0S4odp-KkQ.jpeg",
+                "originalWidth": 3024,
+                "originalHeight": 2126,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [
+            {
+              "url": "https://gitconnected.com/learn/react",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://ifttt.com/",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "ifttt://"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://netlify.com",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/photos/YTk8tO3PGdA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/search/photos/movement?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://medium.com/feed/@emasuriano",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://techterms.com/definition/staticwebsite",
+              "alts": [
+                {
+                  "type": 1,
+                  "url": "https://cdn.ampproject.org/c/s/techterms.com/amp/definition/staticwebsite"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://zapier.com/help/what-is-zapier/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://emasuriano.com",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.netlify.com/blog/2018/07/12/the-reign-of-static-site-generators-/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://levelup.gitconnected.com",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "medium://gitconnected"
+                },
+                {
+                  "type": 3,
+                  "url": "medium://gitconnected"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2019-03-19"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 184,
+        "sectionCount": 2,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "make-any-static-site-dynamic-without-coding",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": false,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "make-any-static-site-dynamic-without-coding-9dde5673b1a",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "previewImage",
+              "type": 4,
+              "text": "",
+              "layout": 10,
+              "metadata": {
+                "id": "1*Euagv75V1mQxIkBz5RJYzA.jpeg",
+                "originalWidth": 5183,
+                "originalHeight": 2529,
+                "isFeatured": true
+              }
+            },
+            {
+              "name": "previewTitle",
+              "type": 3,
+              "text": "Make any Static Site Dynamic with Zapier",
+              "alignment": 1
+            },
+            {
+              "name": "previewSubtitle",
+              "type": 13,
+              "text": "Without any doubts, there was a huge adoption for Static Site…",
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "Without any doubts, there was a huge adoption for Static Site Generator since these past 2 years, and one of the main reason was the huge…"
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "5517fd7b58a6",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 0,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "9dde5673b1a",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "518a4286dca3e7d1d690d22d7dc15f4b",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "9b616c1c-a1c5-5ef4-997a-bb3805a6534f": {
+      "id": "9b616c1c-a1c5-5ef4-997a-bb3805a6534f",
+      "versionId": "4e8605f6c200",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "5517fd7b58a6",
+      "title": "Building  a collaborative Calendar with Google and Gatsby",
+      "detectedLanguage": "en",
+      "latestVersion": "4e8605f6c200",
+      "latestPublishedVersion": "4e8605f6c200",
+      "hasUnpublishedEdits": false,
+      "latestRev": 1353,
+      "createdAt": "2018-11-13",
+      "updatedAt": "2018-12-28",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-12-26",
+      "latestPublishedAt": "2018-12-28",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "About one week ago a friend of mine came to me for help, he wanted to create an online calendar for cultural events around the city. The…",
+        "postDisplay": {
+          "coverless": true
+        },
+        "metaDescription": "Tutorial of how to create a collaborative calendar using Google Form, Google Sheets and Gatsby."
+      },
+      "virtuals": {
+        "statusForCollection": "APPROVED",
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*Erpd_TbD76LxPCFU9zVB0g.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 2992,
+          "originalHeight": 2000,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1120,
+        "imageCount": 11,
+        "readingTime": 5.526415094339622,
+        "subtitle": "About one week ago a friend of mine came to me for help, he wanted to create an online calendar for cultural events around the city. The…",
+        "publishedInCount": 1,
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 12,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "javascript",
+            "name": "JavaScript",
+            "postCount": 93572,
+            "metadata": {
+              "postCount": 93572,
+              "coverImage": {
+                "id": "1*05ZhqragwnsDBx-9wK0EJw.jpeg",
+                "originalWidth": 2048,
+                "originalHeight": 977,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "gatsbyjs",
+            "name": "Gatsbyjs",
+            "postCount": 324,
+            "metadata": {
+              "postCount": 324,
+              "coverImage": {
+                "id": "0*ckD4DbVLuOCb79bj",
+                "originalWidth": 5917,
+                "originalHeight": 3945,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "google",
+            "name": "Google",
+            "postCount": 38264,
+            "metadata": {
+              "postCount": 38264,
+              "coverImage": {
+                "id": "1*wQWcSujLSninHsuc0zcTng.jpeg",
+                "originalWidth": 2976,
+                "originalHeight": 2084,
+                "isFeatured": true,
+                "focusPercentX": 51,
+                "focusPercentY": 40
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "calendar",
+            "name": "Calendar",
+            "postCount": 2159,
+            "metadata": {
+              "postCount": 2159,
+              "coverImage": {
+                "id": "1*QI_NHnfQYDqJk4GOdtDOdw.jpeg",
+                "originalWidth": 1280,
+                "originalHeight": 883,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "collaboration",
+            "name": "Collaboration",
+            "postCount": 11643,
+            "metadata": {
+              "postCount": 11643,
+              "coverImage": {
+                "id": "0*sbgnxO-ctaL2dqAj.jpg",
+                "originalWidth": 1600,
+                "originalHeight": 900
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [
+            {
+              "url": "http://localhost:8000/___graphql",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "http://localhost:8000/",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "https://docs.google.com/spreadsheets/d/[spreadsheetId]",
+              "alts": [],
+              "httpStatus": 400
+            },
+            {
+              "url": "http://grommet.io",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://support.google.com/googleapi/answer/6158862?hl=en",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/search/photos/calendar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/gatsby-starter-event-calendar.git",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://console.developers.google.com/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/brandonmp/gatsby-source-google-sheets",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/photos/zni0zgb3bkQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.gatsbyjs.org/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://levelup.gitconnected.com/top-web-development-articles-of-2018-bd5c3900110b",
+              "alts": [
+                {
+                  "type": 3,
+                  "url": "medium://p/bd5c3900110b"
+                },
+                {
+                  "type": 2,
+                  "url": "medium://p/bd5c3900110b"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://gitconnected.com/learn/react",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://docs.google.com/forms/d/e/1FAIpQLSdGMkGpkwhJG5hcZh2obH9qPfOe76B4Q4O5NQsuQ6wGctHT9Q/viewform",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/gatsby-starter-event-calendar",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-12-28"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "Tutorial of how to create a collaborative calendar using Google Form, Google Sheets and Gatsby.",
+        "totalClapCount": 159,
+        "sectionCount": 3,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "building-a-collaborative-calendar-with-google-and-gatsby",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": false,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "building-a-collaborative-calendar-with-google-and-gatsby-5989b283c937",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "previewImage",
+              "type": 4,
+              "text": "",
+              "layout": 10,
+              "metadata": {
+                "id": "1*Erpd_TbD76LxPCFU9zVB0g.jpeg",
+                "originalWidth": 2992,
+                "originalHeight": 2000,
+                "isFeatured": true
+              }
+            },
+            {
+              "name": "057f",
+              "type": 3,
+              "text": "Building a collaborative Calendar with Google and Gatsby",
+              "markups": [],
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "About one week ago a friend of mine came to me for help, he wanted to create an online calendar for cultural events around the city. The…"
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "5517fd7b58a6",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 4,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "5989b283c937",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "8d1b62bb9379e1dc81f32568964af3d1",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "4c77feb1-5981-5842-bb8d-fe107cf7f87a": {
+      "id": "4c77feb1-5981-5842-bb8d-fe107cf7f87a",
+      "versionId": "e87d1248114c",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "",
+      "title": "How to create a Gatsby Starter",
+      "detectedLanguage": "en",
+      "latestVersion": "e87d1248114c",
+      "latestPublishedVersion": "e87d1248114c",
+      "hasUnpublishedEdits": false,
+      "latestRev": 1476,
+      "createdAt": "2018-09-08",
+      "updatedAt": "2018-11-21",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-10-12",
+      "latestPublishedAt": "2018-10-12",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "A few weeks ago I published my first starter for Gatsby and I want to share what I learn from this  journey.",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*9Mntlltb4s_NTKQNNMfz9Q.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 4288,
+          "originalHeight": 2848,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1161,
+        "imageCount": 4,
+        "readingTime": 5.081132075471698,
+        "subtitle": "A few weeks ago I published my first starter for Gatsby and I want to share what I learn from this  journey.",
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 13,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "react",
+            "name": "React",
+            "postCount": 25937,
+            "metadata": {
+              "postCount": 25937,
+              "coverImage": {
+                "id": "1*j-b1dZsAJGfhUEQVHu2Wpw.jpeg",
+                "originalWidth": 5991,
+                "originalHeight": 3024,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "gatsby",
+            "name": "Gatsby",
+            "postCount": 62,
+            "metadata": {
+              "postCount": 62,
+              "coverImage": {
+                "id": "1*Euagv75V1mQxIkBz5RJYzA.jpeg",
+                "originalWidth": 5183,
+                "originalHeight": 2529,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "how-to",
+            "name": "How To",
+            "postCount": 14807,
+            "metadata": {
+              "postCount": 14807,
+              "coverImage": {
+                "id": "1*w0x6pLT-MVYlwEbc_CzXFg.png",
+                "originalWidth": 2880,
+                "originalHeight": 1800,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "publishing",
+            "name": "Publishing",
+            "postCount": 14023,
+            "metadata": {
+              "postCount": 14023,
+              "coverImage": {
+                "id": "0*--4qs-a2NbheKct7",
+                "originalWidth": 4608,
+                "originalHeight": 2592,
+                "isFeatured": true,
+                "unsplashPhotoId": "xU2CytdJHJQ"
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "contentful",
+            "name": "Contentful",
+            "postCount": 71,
+            "metadata": {
+              "postCount": 71,
+              "coverImage": {
+                "id": "0*ckD4DbVLuOCb79bj",
+                "originalWidth": 5917,
+                "originalHeight": 3945,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 3,
+        "links": {
+          "entries": [
+            {
+              "url": "https://unsplash.com/photos/PpzBE1hWeGI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/search/photos/suitcase?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://spectrum.chat/gatsby-js",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.contentful.com",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.gatsbyjs.org/starters/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "http://emasuriano.com",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/emasuriano.github.io",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.gatsbyjs.org/starters/gatsby-starter-mate",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-10-12"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 192,
+        "sectionCount": 6,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "how-to-create-a-gatsby-starter",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": false,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "how-to-create-a-gatsby-starter-e7d53083a880",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "previewImage",
+              "type": 4,
+              "text": "",
+              "layout": 10,
+              "metadata": {
+                "id": "1*9Mntlltb4s_NTKQNNMfz9Q.jpeg",
+                "originalWidth": 4288,
+                "originalHeight": 2848,
+                "isFeatured": true
+              }
+            },
+            {
+              "name": "f09a",
+              "type": 3,
+              "text": "How to create a Gatsby Starter",
+              "markups": [],
+              "alignment": 1
+            },
+            {
+              "name": "be39",
+              "type": 1,
+              "text": "A few weeks ago I published my first starter for Gatsby and I want to share what I learn from this…",
+              "markups": [],
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "A few weeks ago I published my first starter for Gatsby and I want to share what I learn from this  journey."
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 4,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "e7d53083a880",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "e158414f7683614794604548cf4b2c09",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "94347b2d-659a-5643-86b1-39c54c40ad0c": {
+      "id": "94347b2d-659a-5643-86b1-39c54c40ad0c",
+      "versionId": "ff320a84ef21",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "",
+      "title": "GraphQL as your Service Layer",
+      "detectedLanguage": "en",
+      "latestVersion": "ff320a84ef21",
+      "latestPublishedVersion": "ff320a84ef21",
+      "hasUnpublishedEdits": false,
+      "latestRev": 230,
+      "createdAt": "2018-08-10",
+      "updatedAt": "2018-08-10",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-08-10",
+      "latestPublishedAt": "2018-08-10",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "Nowadays every application is connected to a server. That server could be sending the data using different protocols (HTTP, FTP, HTTPS) and…",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*l2veyYClADIDA13VNFyF8Q.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 5899,
+          "originalHeight": 3932,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 2368,
+        "imageCount": 6,
+        "readingTime": 9.885849056603773,
+        "subtitle": "Nowadays every application is connected to a server. That server could be sending the data using different protocols (HTTP, FTP, HTTPS) and…",
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 10,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "javascript",
+            "name": "JavaScript",
+            "postCount": 93572,
+            "metadata": {
+              "postCount": 93572,
+              "coverImage": {
+                "id": "1*05ZhqragwnsDBx-9wK0EJw.jpeg",
+                "originalWidth": 2048,
+                "originalHeight": 977,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "graphql",
+            "name": "GraphQL",
+            "postCount": 3452,
+            "metadata": {
+              "postCount": 3452,
+              "coverImage": {
+                "id": "1*QFl5u-rZN3dou7XDNNwuBA.png",
+                "originalWidth": 1200,
+                "originalHeight": 500,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "architecture",
+            "name": "Architecture",
+            "postCount": 22622,
+            "metadata": {
+              "postCount": 22622,
+              "coverImage": {
+                "id": "1*TOrayG0uN6GkYLNqmlCXxw.jpeg"
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [
+            {
+              "url": "https://graphql.org/learn/schema/#scalar-types",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/graphql/graphiql",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "http://graphql.org/learn/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/apollographql/apollo-server",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.howtographql.com/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://blog.graph.cool/top-5-reasons-to-use-graphql-b60cfa683511",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://blog.graph.cool/how-to-wrap-a-rest-api-with-graphql-8bf3fb17547d",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://blog.graph.cool/graphql-server-basics-the-schema-ac5e2950214e",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/photos/HzfeNUVpLLU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.apollographql.com/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/zeit/micro",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://dev-blog.apollodata.com/the-concepts-of-graphql-bc68bd819be3",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "medium://p/bc68bd819be3"
+                },
+                {
+                  "type": 3,
+                  "url": "medium://p/bc68bd819be3"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://blog.graph.cool/graphql-sdl-schema-definition-language-6755bcb9ce51",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/brastlewark-finder",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "http://localhost/",
+              "alts": [],
+              "httpStatus": 0
+            },
+            {
+              "url": "https://brastlewark-finder-sotqubsuzd.now.sh/graphiql",
+              "alts": [],
+              "httpStatus": 0
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-08-10"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 59,
+        "sectionCount": 3,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "graphql-as-your-service-layer",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "graphql-as-your-service-layer-62ecf95ac74a",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "previewImage",
+              "type": 4,
+              "text": "",
+              "layout": 10,
+              "metadata": {
+                "id": "1*l2veyYClADIDA13VNFyF8Q.jpeg",
+                "originalWidth": 5899,
+                "originalHeight": 3932,
+                "isFeatured": true
+              }
+            },
+            {
+              "name": "cbcc",
+              "type": 3,
+              "text": "GraphQL as your Service Layer",
+              "markups": [],
+              "alignment": 1
+            },
+            {
+              "name": "4640",
+              "type": 1,
+              "text": "Nowadays every application is connected to a server. That server could be sending the data using different…",
+              "markups": [],
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "Nowadays every application is connected to a server. That server could be sending the data using different protocols (HTTP, FTP, HTTPS) and…"
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": false,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 0,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "62ecf95ac74a",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "ee338dd1311d164fe0adbedb37fef9e1",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "a3c6639c-d5cc-5807-a241-2478c8a311d4": {
+      "id": "a3c6639c-d5cc-5807-a241-2478c8a311d4",
+      "versionId": "a378b11e0de0",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "",
+      "title": "Write staggering documentation for your React Projects",
+      "detectedLanguage": "en",
+      "latestVersion": "a378b11e0de0",
+      "latestPublishedVersion": "a378b11e0de0",
+      "hasUnpublishedEdits": false,
+      "latestRev": 585,
+      "createdAt": "2018-07-27",
+      "updatedAt": "2018-07-27",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-07-27",
+      "latestPublishedAt": "2018-07-27",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "In the last few days, I started to improve the documentation of many of my open source projects in GitHub. I realized that by the time I…",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*XtPlw_qrPDyZpKHtPnRYwA.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 6952,
+          "originalHeight": 4773,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 748,
+        "imageCount": 8,
+        "readingTime": 3.9559748427672954,
+        "subtitle": "In the last few days, I started to improve the documentation of many of my open source projects in GitHub. I realized that by the time I…",
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 3,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "javascript",
+            "name": "JavaScript",
+            "postCount": 93572,
+            "metadata": {
+              "postCount": 93572,
+              "coverImage": {
+                "id": "1*05ZhqragwnsDBx-9wK0EJw.jpeg",
+                "originalWidth": 2048,
+                "originalHeight": 977,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "react",
+            "name": "React",
+            "postCount": 25937,
+            "metadata": {
+              "postCount": 25937,
+              "coverImage": {
+                "id": "1*j-b1dZsAJGfhUEQVHu2Wpw.jpeg",
+                "originalWidth": 5991,
+                "originalHeight": 3024,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "markdown",
+            "name": "Markdown",
+            "postCount": 813,
+            "metadata": {
+              "postCount": 813,
+              "coverImage": {
+                "id": "1*uABDykiJeBgVu8A45-KkDQ.png",
+                "originalWidth": 2000,
+                "originalHeight": 937
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "documentation",
+            "name": "Documentation",
+            "postCount": 1686,
+            "metadata": {
+              "postCount": 1686,
+              "coverImage": {
+                "id": "0*jogum1ewBNshz4QK",
+                "originalWidth": 1350,
+                "originalHeight": 901,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "mdx",
+            "name": "Mdx",
+            "postCount": 18,
+            "metadata": {
+              "postCount": 18,
+              "coverImage": {
+                "id": "0*formOSHNd6bdwwfB",
+                "originalWidth": 5184,
+                "originalHeight": 3456,
+                "isFeatured": true,
+                "unsplashPhotoId": "UGQoo2nznz8"
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [
+            {
+              "url": "https://unsplash.com/photos/EF8Jr-uPS2Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://emasuriano.github.io/react-hotkey-tooltip/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://react-hotkey-tooltip.netlify.com",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/docz-colorfulbutton-example",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.docz.site/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/react-hotkey-tooltip",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://codesandbox.io",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/mdx-js/mdx",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.docz.site",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://unsplash.com/search/photos/write?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-07-27"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 6,
+        "sectionCount": 1,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "write-staggering-documentation-for-your-react-projects",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "write-staggering-documentation-for-your-react-projects-7de2ea263806",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "7479",
+              "type": 3,
+              "text": "Write staggering documentation for your React Projects",
+              "markups": [],
+              "alignment": 1
+            },
+            {
+              "name": "c752",
+              "type": 4,
+              "text": "",
+              "markups": [
+                {
+                  "type": 3,
+                  "start": 9,
+                  "end": 17,
+                  "href": "https://unsplash.com/photos/EF8Jr-uPS2Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+                  "title": "",
+                  "rel": "noopener",
+                  "anchorType": 0
+                },
+                {
+                  "type": 3,
+                  "start": 21,
+                  "end": 29,
+                  "href": "https://unsplash.com/search/photos/write?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText",
+                  "title": "",
+                  "rel": "noopener",
+                  "anchorType": 0
+                }
+              ],
+              "layout": 10,
+              "metadata": {
+                "id": "1*XtPlw_qrPDyZpKHtPnRYwA.jpeg",
+                "originalWidth": 6952,
+                "originalHeight": 4773
+              }
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "In the last few days, I started to improve the documentation of many of my open source projects in GitHub. I realized that by the time I…"
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": true,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 0,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "7de2ea263806",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "4536943cff98e24e15a64693297cb089",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "8c1ba0bc-3515-5699-8372-dfcfe4437a37": {
+      "id": "8c1ba0bc-3515-5699-8372-dfcfe4437a37",
+      "versionId": "e640a1698a10",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "",
+      "title": "Understanding the New Context API",
+      "detectedLanguage": "en",
+      "latestVersion": "e640a1698a10",
+      "latestPublishedVersion": "e640a1698a10",
+      "hasUnpublishedEdits": false,
+      "latestRev": 1175,
+      "createdAt": "2018-03-17",
+      "updatedAt": "2018-05-20",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-03-17",
+      "latestPublishedAt": "2018-03-23",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "If you were following all the React trends in the last month, you should know that some API’s have received a redesign: Context, refs, etc.",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*kx2DKrrYvOcE9N90o3S6YA.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 1000,
+          "originalHeight": 668,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 1300,
+        "imageCount": 2,
+        "readingTime": 5.288993710691824,
+        "subtitle": "If you were following all the React trends in the last month, you should know that some API’s have received a redesign: Context, refs, etc.",
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 11,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "react",
+            "name": "React",
+            "postCount": 25937,
+            "metadata": {
+              "postCount": 25937,
+              "coverImage": {
+                "id": "1*j-b1dZsAJGfhUEQVHu2Wpw.jpeg",
+                "originalWidth": 5991,
+                "originalHeight": 3024,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "context",
+            "name": "Context",
+            "postCount": 625,
+            "metadata": {
+              "postCount": 625,
+              "coverImage": {
+                "id": "1*m1sn3MvjwKI6vN--pXVGQw.jpeg",
+                "originalWidth": 2250,
+                "originalHeight": 1500,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "javascript",
+            "name": "JavaScript",
+            "postCount": 93572,
+            "metadata": {
+              "postCount": 93572,
+              "coverImage": {
+                "id": "1*05ZhqragwnsDBx-9wK0EJw.jpeg",
+                "originalWidth": 2048,
+                "originalHeight": 977,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "front-end-development",
+            "name": "Front End Development",
+            "postCount": 10895,
+            "metadata": {
+              "postCount": 10895,
+              "coverImage": {
+                "id": "1*aeXtrs9UI4WniMd1miDIDw.png",
+                "originalWidth": 2482,
+                "originalHeight": 941,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [
+            {
+              "url": "https://reactjs.org/docs/context.html",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://javascriptplayground.com/context-in-reactjs-applications/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://medium.com/dailyjs/reacts-%EF%B8%8F-new-context-api-70c9fe01596b",
+              "alts": [
+                {
+                  "type": 2,
+                  "url": "medium://p/70c9fe01596b"
+                },
+                {
+                  "type": 3,
+                  "url": "medium://p/70c9fe01596b"
+                }
+              ],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/EmaSuriano/react-radio-group-context",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/reactjs/rfcs/pull/2",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-03-23"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 99,
+        "sectionCount": 2,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "understanding-the-new-context-api",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "understanding-the-new-context-api-7a8d1c3a1ee6",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "fe46",
+              "type": 3,
+              "text": "Understanding the New Context API",
+              "markups": [],
+              "alignment": 1
+            },
+            {
+              "name": "35ed",
+              "type": 4,
+              "text": "",
+              "markups": [],
+              "layout": 10,
+              "metadata": {
+                "id": "1*kx2DKrrYvOcE9N90o3S6YA.jpeg",
+                "originalWidth": 1000,
+                "originalHeight": 668
+              }
+            },
+            {
+              "name": "b7b5",
+              "type": 1,
+              "text": "If you were following all the React trends in the last month, you should know that some API’s have…",
+              "markups": [],
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "If you were following all the React trends in the last month, you should know that some API’s have received a redesign: Context, refs, etc."
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "",
+      "newsletterId": "",
+      "webCanonicalUrl": "",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": true,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 0,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "7a8d1c3a1ee6",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "f7d558e5a5f7c8aae61cb8db727a492a",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "44fd0bc0-828a-5f19-94b2-3828beee89b9": {
+      "id": "44fd0bc0-828a-5f19-94b2-3828beee89b9",
+      "versionId": "5b76d1ef02a8",
+      "creatorId": "cc2fb20f639d",
+      "homeCollectionId": "",
+      "title": "How I made my page in only 1 night",
+      "detectedLanguage": "en",
+      "latestVersion": "5b76d1ef02a8",
+      "latestPublishedVersion": "5b76d1ef02a8",
+      "hasUnpublishedEdits": true,
+      "latestRev": 253,
+      "createdAt": "2018-02-25",
+      "updatedAt": "2019-04-14",
+      "acceptedAt": 0,
+      "firstPublishedAt": "2018-02-25",
+      "latestPublishedAt": "2018-02-25",
+      "vote": false,
+      "experimentalCss": "",
+      "displayAuthor": "",
+      "content": {
+        "subtitle": "Yes, only one night. In fact, it took me about 3 hours. So if you want to have your own, I highly recommend you to continue reading!",
+        "postDisplay": {
+          "coverless": true
+        }
+      },
+      "virtuals": {
+        "allowNotes": true,
+        "previewImage": {
+          "imageId": "1*kLwE8YpeTr6jWKOCuqPwAQ.jpeg",
+          "filter": "",
+          "backgroundSize": "",
+          "originalWidth": 4425,
+          "originalHeight": 2420,
+          "strategy": "resample",
+          "height": 0,
+          "width": 0
+        },
+        "wordCount": 923,
+        "imageCount": 2,
+        "readingTime": 3.8663522012578615,
+        "subtitle": "Yes, only one night. In fact, it took me about 3 hours. So if you want to have your own, I highly recommend you to continue reading!",
+        "usersBySocialRecommends": [],
+        "noIndex": false,
+        "recommends": 9,
+        "isBookmarked": false,
+        "tags": [
+          {
+            "slug": "web-development",
+            "name": "Web Development",
+            "postCount": 93327,
+            "metadata": {
+              "postCount": 93327,
+              "coverImage": {
+                "id": "1*Z26vagBVJFHdQ-0QS43SMw.jpeg",
+                "originalWidth": 5760,
+                "originalHeight": 3840,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "gatsbyjs",
+            "name": "Gatsbyjs",
+            "postCount": 324,
+            "metadata": {
+              "postCount": 324,
+              "coverImage": {
+                "id": "0*ckD4DbVLuOCb79bj",
+                "originalWidth": 5917,
+                "originalHeight": 3945,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "react",
+            "name": "React",
+            "postCount": 25937,
+            "metadata": {
+              "postCount": 25937,
+              "coverImage": {
+                "id": "1*j-b1dZsAJGfhUEQVHu2Wpw.jpeg",
+                "originalWidth": 5991,
+                "originalHeight": 3024,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          },
+          {
+            "slug": "portfolio",
+            "name": "Portfolio",
+            "postCount": 4796,
+            "metadata": {
+              "postCount": 4796,
+              "coverImage": {
+                "id": "1*kTa1vE6skisShlDGBWgHWQ.png",
+                "originalWidth": 1350,
+                "originalHeight": 900,
+                "isFeatured": true
+              }
+            },
+            "type": "Tag"
+          }
+        ],
+        "socialRecommendsCount": 0,
+        "responsesCreatedCount": 0,
+        "links": {
+          "entries": [
+            {
+              "url": "https://www.gatsbyjs.org/docs/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.gatsbyjs.org/docs/plugins/",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://github.com/alxshelepenok/gatsby-starter-lumen",
+              "alts": [],
+              "httpStatus": 200
+            },
+            {
+              "url": "https://www.gatsbyjs.org/blog/gatsby-v1/",
+              "alts": [],
+              "httpStatus": 200
+            }
+          ],
+          "version": "0.3",
+          "generatedAt": "2018-02-25"
+        },
+        "isLockedPreviewOnly": false,
+        "takeoverId": "",
+        "metaDescription": "",
+        "totalClapCount": 34,
+        "sectionCount": 2,
+        "readingList": 0,
+        "topics": []
+      },
+      "coverless": true,
+      "slug": "how-i-made-my-page-in-only-1-night",
+      "translationSourcePostId": "",
+      "translationSourceCreatorId": "",
+      "isApprovedTranslation": false,
+      "inResponseToPostId": "",
+      "inResponseToRemovedAt": 0,
+      "isTitleSynthesized": true,
+      "allowResponses": true,
+      "importedUrl": "https://gist.github.com/627e134bb6f4b43005a5138431f8e9e6",
+      "importedPublishedAt": 0,
+      "visibility": 0,
+      "uniqueSlug": "how-i-made-my-page-in-only-1-night-7f712e3849b3",
+      "previewContent": {
+        "bodyModel": {
+          "paragraphs": [
+            {
+              "name": "ea8e",
+              "type": 3,
+              "text": "How I made my page in only 1 night",
+              "markups": [],
+              "alignment": 1
+            },
+            {
+              "name": "195a",
+              "type": 1,
+              "text": "Yes, only one night. In fact, it took me about 3 hours. So if you want to have your own, I highly recommend you to continue reading!",
+              "markups": [],
+              "alignment": 1
+            },
+            {
+              "name": "d2e5",
+              "type": 1,
+              "text": "I’m sooo far away from building this website from scratch in one night. What I did was something different, I…",
+              "markups": [],
+              "alignment": 1
+            }
+          ],
+          "sections": [
+            {
+              "startIndex": 0
+            }
+          ]
+        },
+        "isFullContent": false,
+        "subtitle": "Yes, only one night. In fact, it took me about 3 hours. So if you want to have your own, I highly recommend you to continue reading!"
+      },
+      "license": 0,
+      "inResponseToMediaResourceId": "",
+      "canonicalUrl": "",
+      "approvedHomeCollectionId": "",
+      "newsletterId": "",
+      "webCanonicalUrl": "https://gist.github.com/627e134bb6f4b43005a5138431f8e9e6",
+      "mediumUrl": "",
+      "migrationId": "",
+      "notifyFollowers": true,
+      "notifyTwitter": true,
+      "notifyFacebook": false,
+      "responseHiddenOnParentPostAt": 0,
+      "isSeries": false,
+      "isSubscriptionLocked": false,
+      "seriesLastAppendedAt": 0,
+      "audioVersionDurationSec": 0,
+      "sequenceId": "",
+      "isNsfw": false,
+      "isEligibleForRevenue": false,
+      "isBlockedFromHightower": false,
+      "deletedAt": 0,
+      "lockedPostSource": 0,
+      "hightowerMinimumGuaranteeStartsAt": 0,
+      "hightowerMinimumGuaranteeEndsAt": 0,
+      "featureLockRequestAcceptedAt": 0,
+      "mongerRequestType": 1,
+      "layerCake": 0,
+      "socialTitle": "",
+      "socialDek": "",
+      "editorialPreviewTitle": "",
+      "editorialPreviewDek": "",
+      "curationEligibleAt": 0,
+      "type": "Post",
+      "medium_id": "7f712e3849b3",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumPost",
+        "contentDigest": "2583fa8d714a7f171b95beb1be969c46",
+        "owner": "gatsby-source-medium"
+      },
+      "author___NODE": "1be025e0-c0cd-5550-81d4-43085241a733"
+    },
+    "94066b82-0fbc-5b68-a3d0-16a68000661e": {
+      "id": "94066b82-0fbc-5b68-a3d0-16a68000661e",
+      "name": "Levelup Your Coding",
+      "slug": "gitconnected",
+      "tags": [
+        "CODING",
+        "OPEN SOURCE",
+        "STARTUP",
+        "JAVASCRIPT",
+        "REACT"
+      ],
+      "creatorId": "47e700e59e44",
+      "description": "Our community publishes stories about software development, design, data science, and blockchain. gitconnected - The Developer Homepage https://gitconnected.com",
+      "shortDescription": "Our community publishes stories about software development…",
+      "image": {
+        "imageId": "1*5D9oYBd58pyjMkV_5-zXXQ.jpeg",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 400,
+        "originalHeight": 400,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "metadata": {
+        "followerCount": 11240,
+        "activeAt": "2019-04-27"
+      },
+      "virtuals": {
+        "permissions": {
+          "canPublish": false,
+          "canPublishAll": false,
+          "canRepublish": false,
+          "canRemove": false,
+          "canManageAll": false,
+          "canSubmit": false,
+          "canEditPosts": false,
+          "canAddWriters": false,
+          "canViewStats": false,
+          "canSendNewsletter": false,
+          "canViewLockedPosts": false,
+          "canViewCloaked": false,
+          "canEditOwnPosts": false,
+          "canBeAssignedAuthor": false,
+          "canEnrollInHightower": false,
+          "canLockPostsForMediumMembers": false,
+          "canLockOwnPostsForMediumMembers": false
+        },
+        "isSubscribed": false,
+        "isNewsletterSubscribed": false,
+        "isEnrolledInHightower": false,
+        "isEligibleForHightower": false
+      },
+      "logo": {
+        "imageId": "1*kCO8MlnAY6lebil4_5nPTw.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 2717,
+        "originalHeight": 398,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "twitterUsername": "gitconnected",
+      "facebookPageName": "gitconnectednetwork",
+      "publicEmail": "submit@gitconnected.com",
+      "collectionMastheadId": "15b7b454ec61",
+      "domain": "levelup.gitconnected.com",
+      "sections": [
+        {
+          "type": 2,
+          "collectionHeaderMetadata": {
+            "backgroundImage": {},
+            "logoImage": {
+              "id": "1*xqwHSUA3zGi3PvqGAnmrxw@2x.png",
+              "originalWidth": 2842,
+              "originalHeight": 708,
+              "alt": "Levelup Your Coding"
+            },
+            "alignment": 2,
+            "layout": 5
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "71b609d6d04e"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "ec84d8be06ca",
+              "aecb6dfb3e51"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 12,
+            "postIds": [],
+            "sectionHeader": "🔥 Hot Off the Press"
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "c3b0a9cadb8f"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 9,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "7257c2b71538",
+              "64f320364f85"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 2,
+            "postIds": [
+              "fb95285fb716",
+              "1d144e4eda9e"
+            ]
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "55f42eeaf931"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 2,
+            "layout": 4,
+            "number": 2,
+            "postIds": [],
+            "sectionHeader": "📌 Trending"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 4,
+            "number": 6,
+            "postIds": [
+              "d0e5493132c6",
+              "58424d9c60e6",
+              "6deda70843a4",
+              "2cee6c55940c",
+              "dcbcbd31b0d0"
+            ]
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 4,
+            "number": 9,
+            "postIds": []
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "37a52fe03367"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 6,
+            "number": 25,
+            "postIds": [],
+            "sectionHeader": "☕️ Latest"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 6,
+            "number": 25,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 6,
+            "number": 25,
+            "postIds": []
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 6,
+            "number": 25,
+            "postIds": []
+          }
+        }
+      ],
+      "tintColor": "#FF4469B0",
+      "lightText": true,
+      "favicon": {
+        "imageId": "1*MMpkJtmeCME-6BmGNH5l8A.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 256,
+        "originalHeight": 256,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "colorPalette": {
+        "defaultBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FF6086CF",
+              "point": 0
+            },
+            {
+              "color": "#FF5B7DBE",
+              "point": 0.1
+            },
+            {
+              "color": "#FF5573AD",
+              "point": 0.2
+            },
+            {
+              "color": "#FF4F6A9C",
+              "point": 0.3
+            },
+            {
+              "color": "#FF49608B",
+              "point": 0.4
+            },
+            {
+              "color": "#FF42557B",
+              "point": 0.5
+            },
+            {
+              "color": "#FF3A4B6A",
+              "point": 0.6
+            },
+            {
+              "color": "#FF324059",
+              "point": 0.7
+            },
+            {
+              "color": "#FF2A3448",
+              "point": 0.8
+            },
+            {
+              "color": "#FF202837",
+              "point": 0.9
+            },
+            {
+              "color": "#FF151A25",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        },
+        "tintBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FF4469B0",
+              "point": 0
+            },
+            {
+              "color": "#FF597BBB",
+              "point": 0.1
+            },
+            {
+              "color": "#FF6D8BC6",
+              "point": 0.2
+            },
+            {
+              "color": "#FF809BD1",
+              "point": 0.3
+            },
+            {
+              "color": "#FF92ABDB",
+              "point": 0.4
+            },
+            {
+              "color": "#FFA4BAE4",
+              "point": 0.5
+            },
+            {
+              "color": "#FFB6C8ED",
+              "point": 0.6
+            },
+            {
+              "color": "#FFC7D7F6",
+              "point": 0.7
+            },
+            {
+              "color": "#FFD8E4FE",
+              "point": 0.8
+            },
+            {
+              "color": "#FFE9F2FF",
+              "point": 0.9
+            },
+            {
+              "color": "#FFFAFFFF",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FF4469B0"
+        },
+        "highlightSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FFEBF3FF",
+              "point": 0
+            },
+            {
+              "color": "#FFE8F2FF",
+              "point": 0.1
+            },
+            {
+              "color": "#FFE4F0FF",
+              "point": 0.2
+            },
+            {
+              "color": "#FFE0EEFF",
+              "point": 0.3
+            },
+            {
+              "color": "#FFDCEDFF",
+              "point": 0.4
+            },
+            {
+              "color": "#FFD8EBFF",
+              "point": 0.5
+            },
+            {
+              "color": "#FFD4E9FF",
+              "point": 0.6
+            },
+            {
+              "color": "#FFD0E7FF",
+              "point": 0.7
+            },
+            {
+              "color": "#FFCCE6FF",
+              "point": 0.8
+            },
+            {
+              "color": "#FFC8E4FF",
+              "point": 0.9
+            },
+            {
+              "color": "#FFC4E2FF",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        }
+      },
+      "navItems": [
+        {
+          "type": 2,
+          "title": "💻 LEARN WEB DEVELOPMENT",
+          "postId": "aecb6dfb3e51",
+          "url": "https://levelup.gitconnected.com/learn-web-development-in-2019-aecb6dfb3e51",
+          "source": "postId"
+        },
+        {
+          "type": 2,
+          "title": "WRITE FOR US",
+          "postId": "dac547ef556b",
+          "url": "https://levelup.gitconnected.com/how-to-get-published-on-gitconnected-dac547ef556b",
+          "source": "postId"
+        },
+        {
+          "type": 2,
+          "title": "Categories",
+          "postId": "c960e5e30e2b",
+          "url": "https://levelup.gitconnected.com/navigate-gitconnected-table-of-contents-c960e5e30e2b",
+          "source": "postId"
+        },
+        {
+          "type": 3,
+          "title": "Coding Tutorials →",
+          "url": "https://gitconnected.com/learn?utm_source=medium&utm_medium=nav"
+        }
+      ],
+      "colorBehavior": 2,
+      "instantArticlesState": 0,
+      "acceleratedMobilePagesState": 0,
+      "googleAnalyticsId": "UA-110153932-1",
+      "ampLogo": {
+        "imageId": "",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 0,
+        "originalHeight": 0,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "header": {
+        "backgroundImage": {},
+        "logoImage": {
+          "id": "1*xqwHSUA3zGi3PvqGAnmrxw@2x.png",
+          "originalWidth": 2842,
+          "originalHeight": 708,
+          "alt": "Levelup Your Coding"
+        },
+        "alignment": 2,
+        "layout": 5
+      },
+      "type": "Collection",
+      "medium_id": "5517fd7b58a6",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "MediumCollection",
+        "contentDigest": "9fe7273d25f05edd1adec2ec28723f32",
+        "owner": "gatsby-source-medium"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/patrickschramm/DEV/testmate/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+      "pluginCreatorId": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "045700e6eba719209020a0b23d6c9b09",
+        "description": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/patrickschramm/DEV/testmate/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+      "pluginCreatorId": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "513b6b4f9bad28b1fe2bb9971827f5e5",
+        "description": "ff22c392-d1af-5f58-a78b-e7a07e3d6859",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/patrickschramm/DEV/testmate/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ebb5a4be97d772b69ec68b7d35861ba1",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {
+      "gatsby-source-contentful": {
+        "75059rxhe4kx-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZdesKMWMO2wrLDrMKFwoTCmF9mw6dsw6UPwrwuwq5rw7wgBk_ChznCgzbCmcO1w4pEecOswqMqJSDDvwHCk8O6wqDDn8OSBHp3w7RywqnCgznCkHTDo3lAwrPChS7Dt35H"
+      }
+    },
+    "PLUGINS_HASH": "d4977b076a446f23974b80fbe0884b6f"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "42d8d05f-a5bf-5385-9bf3-34e7ced5ec90": [
+        "sq--src-components-helmet-js",
+        "sq--src-sections-about-js",
+        "sq--src-sections-landing-js",
+        "sq--src-sections-projects-js"
+      ],
+      "bbfa0c94-13ba-5568-bb73-fd05af760408": [
+        "sq--src-components-helmet-js",
+        "sq--src-sections-about-js"
+      ],
+      "435f85e3-119e-562a-887d-e3cdde0d526d": [
+        "sq--src-sections-about-js"
+      ],
+      "e20c9b85-0866-5997-8ba4-c24d18e0e054": [
+        "sq--src-sections-landing-js"
+      ],
+      "4cd92736-3aec-5c27-bb2b-841c700cf73d": [
+        "sq--src-sections-landing-js"
+      ],
+      "97e89d27-0dd0-539a-b1e8-f57942b275a8": [
+        "sq--src-sections-landing-js"
+      ],
+      "71f92cfd-c26a-581d-8a09-d1423df892a2": [
+        "sq--src-sections-landing-js"
+      ],
+      "172cb726-050d-52f3-9e23-aa529fe48229": [
+        "sq--src-sections-projects-js"
+      ],
+      "7aa9b16d-f43f-5199-839a-89f24f1b7cdc": [
+        "sq--src-sections-projects-js"
+      ],
+      "d5b809dc-bb7b-555d-a135-ce7436b9b1b8": [
+        "sq--src-sections-projects-js"
+      ],
+      "1d254671-bb43-5e69-93cf-8445e49aea91": [
+        "sq--src-sections-about-js"
+      ],
+      "6357e804-4fd2-5bfe-ba2b-1a72e86f1248": [
+        "sq--src-sections-projects-js"
+      ],
+      "f6f2250c-9af0-539e-8b06-2cf3211d7d63": [
+        "sq--src-sections-projects-js"
+      ],
+      "4f00ef0b-a1e4-5cd2-9d59-bd5c94934a54": [
+        "sq--src-sections-projects-js"
+      ],
+      "1be025e0-c0cd-5550-81d4-43085241a733": [
+        "sq--src-sections-writing-js"
+      ]
+    },
+    "connections": {
+      "MediumPost": [
+        "sq--src-sections-writing-js"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-helmet-js": 4063282471,
+    "sq--src-sections-about-js": 1331387878,
+    "sq--src-sections-projects-js": 3598858759,
+    "sq--src-sections-landing-js": 1608748843,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-sections-writing-js": 3917876049,
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/home/patrickschramm/DEV/testmate/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/patrickschramm/DEV/testmate/.cache/dev-404-page.js"
+    },
+    "/home/patrickschramm/DEV/testmate/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/pages/404.js"
+    },
+    "/home/patrickschramm/DEV/testmate/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-helmet-js": {
+      "name": "HelmetQuery",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/components/Helmet.js",
+      "id": "sq--src-components-helmet-js",
+      "jsonName": "sq--src-components-helmet-js",
+      "query": "query HelmetQuery {\n  contentfulAbout {\n    name\n    description\n    profile {\n      favicon16: resize(width: 16) {\n        src\n      }\n      favicon32: resize(width: 32) {\n        src\n      }\n      bigIcon: resize(width: 192) {\n        src\n      }\n      appleIcon: resize(width: 180) {\n        src\n      }\n    }\n  }\n}\n",
+      "hash": 4063282471
+    },
+    "sq--src-sections-about-js": {
+      "name": "AboutMeQuery",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/sections/About.js",
+      "id": "sq--src-sections-about-js",
+      "jsonName": "sq--src-sections-about-js",
+      "query": "query AboutMeQuery {\n  contentfulAbout {\n    aboutMe {\n      childMarkdownRemark {\n        rawMarkdownBody\n      }\n    }\n    profile {\n      title\n      image: resize(width: 450, quality: 100) {\n        src\n      }\n    }\n  }\n}\n",
+      "hash": 1331387878
+    },
+    "sq--src-sections-landing-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/sections/Landing.js",
+      "id": "sq--src-sections-landing-js",
+      "jsonName": "sq--src-sections-landing-js",
+      "query": "query SiteTitleQuery {\n  contentfulAbout {\n    name\n    roles\n    socialLinks {\n      id\n      url\n      name\n      fontAwesomeIcon\n    }\n  }\n}\n",
+      "hash": 1608748843
+    },
+    "sq--src-sections-projects-js": {
+      "name": "ProjectsQuery",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/sections/Projects.js",
+      "id": "sq--src-sections-projects-js",
+      "jsonName": "sq--src-sections-projects-js",
+      "query": "query ProjectsQuery {\n  contentfulAbout {\n    projects {\n      id\n      name\n      description\n      projectUrl\n      repositoryUrl\n      publishedDate(formatString: \"YYYY\")\n      type\n      logo {\n        title\n        image: resize(width: 200, quality: 100) {\n          src\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 3598858759
+    },
+    "sq--src-sections-writing-js": {
+      "name": "MediumPostQuery",
+      "componentPath": "/home/patrickschramm/DEV/testmate/src/sections/Writing.js",
+      "id": "sq--src-sections-writing-js",
+      "jsonName": "sq--src-sections-writing-js",
+      "query": "query MediumPostQuery {\n  isMediumUserDefine: __type(name: \"contentfulAboutMediumUserQueryString_2\") {\n    name\n  }\n  allMediumPost(limit: 6, sort: {fields: createdAt, order: DESC}) {\n    edges {\n      node {\n        id\n        uniqueSlug\n        title\n        createdAt(formatString: \"MMM YYYY\")\n        virtuals {\n          subtitle\n          readingTime\n          previewImage {\n            imageId\n          }\n        }\n        author {\n          username\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 3917876049
+    }
+  }
+}
